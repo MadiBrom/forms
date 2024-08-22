@@ -1,10 +1,16 @@
-import { useState } from "react";
+// import { useState } from "react";
 import "./App.css";
+import Authenticate from "./components/Authenticate.jsx";
+import SignUpForm from "./components/SignUpForm.jsx";
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
-  return <></>;
+  return (
+    <>
+      <Authenticate />
+      <SignUpForm />
+    </>
+  );
 }
-
 export default App;
