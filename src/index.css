@@ -14,7 +14,7 @@ body {
   justify-content: center;
   min-width: 320px;
   min-height: 100vh;
-  background: radial-gradient(transparent 0%, rgba(0, 0, 0, 0.55) 100%),
+  background: radial-gradient(transparent 0%, rgba(0, 0, 0, 0.83) 100%),
     linear-gradient(
       90deg,
       transparent 0%,

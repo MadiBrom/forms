@@ -49,7 +49,7 @@ function Authenticate({ token }) {
 
   return (
     <div>
-      <h2>Authenticate</h2>
+      <h2 id="authentic">Authenticate</h2>
       <button onClick={handleClick}>
         {loading ? "Authenticating..." : "Authenticate Token!"}
       </button>
